@@ -501,6 +501,15 @@
     font-size: 12px;
 }
 
+.sky-survey-pick select.input-sm {
+    width: 12rem;
+    max-width: 100%;
+    min-height: 0;
+    padding: 4px 10px;
+    font-size: 12px;
+    line-height: normal;
+}
+
 /* When the "Solve frame" disclosure is expanded, drop it to its own
    full-width line below the action row (and after the body picker via
    order) so its tall panel never disturbs the buttons. Collapsed, it
