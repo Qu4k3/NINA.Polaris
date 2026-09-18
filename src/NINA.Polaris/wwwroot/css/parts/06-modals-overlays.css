@@ -188,6 +188,15 @@
     color: var(--text-primary);
 }
 
+/* Ensure action buttons in editor rows visually match the select height */
+.editor-export-row button.btn {
+    min-height: 38px; /* match select's min-height */
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ──────────────────────── /EDITOR ──────────────────────── */
 
 .tonight-panel,
